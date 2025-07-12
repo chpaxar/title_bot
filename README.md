@@ -10,6 +10,7 @@
 DISCORD_TOKEN=ваш_токен
 
 GUILD_ID=ID_вашего_сервера
+
 '''Ссылку не менять'''
 DATABASE_URL=postgresql://user:pass@db:5432/titlebot
 
