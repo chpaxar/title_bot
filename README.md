@@ -5,7 +5,7 @@
 ## Как запустить
 
 # 1. Клонируйте репозиторий:
-git clone https://github.com/your-username/title_bot.git
+git clone https://github.com/your-username/title-bot.git
 cd title-bot
 
 # 2. Заполните .env:
