@@ -10,7 +10,9 @@ cd title_bot
 
 # 2. Заполните .env:
 DISCORD_TOKEN=ваш_токен
+
 GUILD_ID=ID_вашего_сервера
+
 DATABASE_URL=postgresql://user:pass@db:5432/titlebot
 
 # 3. Запустите Docker:
