@@ -4,19 +4,17 @@
 
 ## Как запустить
 
-# 1. Клонируйте репозиторий:
-git clone https://github.com/chpaxar/title_bot.git
-cd title_bot
+# 1. Скачиваете архив и извлекаете все в желаемую папку
 
-# 2. Заполните .env:
+# 2. Измените .env:
 DISCORD_TOKEN=ваш_токен
 
 GUILD_ID=ID_вашего_сервера
-
+'''Ссылку не менять'''
 DATABASE_URL=postgresql://user:pass@db:5432/titlebot
 
-# 3. Запустите Docker:
+# 3. Запустите Docker через консоль папки:
 docker-compose up --build
 
 # 4. Бот автоматически создаст таблицу и подключится к
-# PostgreSQL.
+# PostgreSQL в самом Docker'е.
